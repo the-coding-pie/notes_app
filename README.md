@@ -4,7 +4,7 @@ A simple Notes App made using React JS, Redux and Django Rest Framework. I was t
 <br/>
 
 <figure class="image">
-  <a href="https://ibb.co/64Lqxz5"><img src="https://i.ibb.co/JzgS4VP/base.png" alt="base" border="0"></a>
+  <img src="https://i.ibb.co/JzgS4VP/base.png" alt="base" border="0">
   <figcaption>HomePage</figcaption>
 </figure>
 
