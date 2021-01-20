@@ -1,13 +1,22 @@
 # Notes App
-A simple Notes App made using React JS, Redux and Django Rest Framework.
+A simple Notes App made using React JS, Redux and Django Rest Framework. I was trying to connect my Django, React JS and Redux skills together, so I built this.
 
-I was trying to connect my Django, React JS and Redux skills together, so I built this.
+## Technologies used:
 
-This is a simple note taking app with Token Based Authentication. Any user can login/register. After that they will be able to use this Notes App. The authenticated user will be able to do:
+- Backend - `Django` + `Django Rest Framework`
+- Frontend - `ReactJS`
+- Styling - `vanilla CSS`
+- `React Alert` package for showing Toast messages (frontend)
+- `Redux` for managing state (frontend)
+- Database - `SQLite3` but you can easily plug and use the DB of your choice.
+
+## Description
+
+This is a simple note taking app with Token Based Authentication. Any user can login/register to this app. After that they will be able to use this Notes App. The authenticated users will be able to do the following:
 
 - Create a note
 - Read all (and only) their notes
-- Delete their own notes
+- Delete their own note
 - Logout from their current account
 
 A single `note` holds the following data to it:
