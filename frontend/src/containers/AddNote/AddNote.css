@@ -1,0 +1,14 @@
+.add-note {
+    margin-bottom: 3rem;
+}
+
+.add-note h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.add-note form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

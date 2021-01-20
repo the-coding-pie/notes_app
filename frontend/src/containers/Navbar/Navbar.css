@@ -1,0 +1,45 @@
+.nav {
+    background: #F62459;
+    color: #ffffff;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 2rem;
+}
+
+.nav .container {
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.nav__title {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.nav__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__right a {
+    color: #ffffff;
+    margin-left: 0.9rem;
+}
+
+.nav__right strong {
+    margin-left: 0.2rem;
+}
+
+.logout-btn {
+    background: none;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 0.8rem;
+    text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+.note {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: #ffffff;
+    padding: 0.5rem;
+    border-radius: 3px;
+    box-shadow: var(--shadow-md);
+}
+
+.note time {
+    font-size: 0.8rem;
+    color: #615F5F;
+    margin-bottom: 0.5rem;
+}
+
+.note h3 {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+
+.note p {
+    font-size: 0.9rem;
+    color: #615F5F;
+    margin-bottom: 0.5rem;
+    word-spacing: 1.7px;
+}
+
+.note .delete {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.note .delete-btn {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.note .delete-btn svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    background: #ffffff;
+    box-shadow: var(--shadow-md);
+    padding: 0.3rem;
+    border-radius: 50%;
+}
