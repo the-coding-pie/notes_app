@@ -12,14 +12,14 @@ A simple Notes App made using React JS, Redux and Django Rest Framework. I was t
 
 ## Description
 
-This is a simple note taking app with Token Based Authentication. Any user can login/register to this app. After that they will be able to use this Notes App. The authenticated users will be able to do the following:
+This is a simple note taking app with Token Based Authentication. Any user can easily login/register using their `email` and `password`. After that they will be able to use this Notes App. The authenticated users will be able to do the following:
 
 - Create a note
 - Read all (and only) their notes
 - Delete their own note
 - Logout from their current account
 
-A single `note` holds the following data to it:
+A single `note` consists of the following data:
 
 - `title` - the title of the note
 - `body` - the content of the note
@@ -28,15 +28,18 @@ A single `note` holds the following data to it:
 
 ## How to use it?
 
-I separated the Django backend from the ReactJS frontend. One of the many ways to run this project is to **run the Django backend API alone** and then **use the React frontend to consume the API**.
+I developed both the Django backend and the ReactJS frontend separately. 
+One of the many ways to run this project is to **run the Django backend API alone** and then **use the React frontend to consume the API**.
 
-To do that first:
+So to do that, first:
 
 - `git clone` or `Download ZIP` this repo `https://github.com/the-coding-pie/notes_app.git`
 
+Then setup the Backend...
+
 # Backend Setup
 
-Now let's activate the backend API server:
+To start/activate the Backend API server:
 
 - `cd notes_app/backend/backend/`
 
@@ -59,6 +62,10 @@ Now let's activate the backend API server:
 - `python manage.py runserver` will start the Django API server
 - If you want, you can **Login** to the pre-built admin panel by visiting- `http://localhost:8000/admin/` in your browser as the superuser account you just created. From this panel, you will be able to do almost anything to the applicaiton!
 
+
+Now your backend server will be ready to accept the API requests! So let's setup the frontend...
+
+
 # Frontend Setup
 
 Now let's run our frontend so that we can visually interact with our backend API.
@@ -68,3 +75,5 @@ Now let's run our frontend so that we can visually interact with our backend API
 - `npm run start` to start the frontend development server
 - Visit `http://localhost:3000` in your browser (normally ReactJS would do this for you)
 - Login/Register and enjoy the application!
+
+## Thanks for having a look at my project. Dont forget to check out my blog - <a href="https://thecodingpie.com">https://thecodingpie.com</a>
