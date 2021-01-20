@@ -1,9 +1,12 @@
 # Notes App
 A simple Notes App made using React JS, Redux and Django Rest Framework. I was trying to connect my Django, React JS and Redux skills together, so I built this.
 
-<a href="https://ibb.co/HD36R8p"><img src="https://i.ibb.co/qMVKhQF/alert.png" alt="alert" border="0"></a>
 <a href="https://ibb.co/64Lqxz5"><img src="https://i.ibb.co/JzgS4VP/base.png" alt="base" border="0"></a>
+
+<a href="https://ibb.co/HD36R8p"><img src="https://i.ibb.co/qMVKhQF/alert.png" alt="alert" border="0"></a>
+
 <a href="https://ibb.co/CPR6BNj"><img src="https://i.ibb.co/y4Hp0Gz/login.png" alt="login" border="0"></a>
+
 <a href="https://ibb.co/vs1Cd0H"><img src="https://i.ibb.co/cbJK841/register.png" alt="register" border="0"></a>
 
 ## Technologies used:
