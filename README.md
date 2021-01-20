@@ -3,9 +3,11 @@ A simple Notes App made using React JS, Redux and Django Rest Framework. I was t
 
 <br/>
 
-![HomePage](https://i.ibb.co/JzgS4VP/base.png)
+<figure class="image">
+  <a href="https://ibb.co/64Lqxz5"><img src="https://i.ibb.co/JzgS4VP/base.png" alt="base" border="0"></a>
+  <figcaption>HomePage</figcaption>
+</figure>
 
-<a href="https://ibb.co/64Lqxz5"><img src="https://i.ibb.co/JzgS4VP/base.png" alt="base" border="0"></a>
 
 <a href="https://ibb.co/HD36R8p"><img src="https://i.ibb.co/qMVKhQF/alert.png" alt="alert" border="0"></a>
 
