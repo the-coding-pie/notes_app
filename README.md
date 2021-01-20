@@ -9,10 +9,15 @@ This is a simple note taking app with Token Based Authentication.
 
 I separated the Django backend from the ReactJS frontend. One of the many ways to run this project is to run the Django backend API alone and then use the ReactJS frontend to consume the API.
 
-So first let's activate the backend API server:
+First:
 
 - `git clone` or `Download ZIP` this repo `https://github.com/the-coding-pie/notes_app.git`
-- then `cd notes_app/backend/backend/`
+
+## Backend Setup
+
+Now let's activate the backend API server:
+
+- `cd notes_app/backend/backend/`
 
 ## Setting up a virtual environment using venv
 - `python3 -m venv venv` will make a virtual environment
@@ -31,6 +36,9 @@ So first let's activate the backend API server:
 
 ## Starting the backend API server
 - `python manage.py runserver` will start the Django API server
+- If you want, you can **Login** to the pre-built admin panel by visiting- `http://localhost:8000/admin/` in your browser as the superuser account you just created. From this panel, you will be able to do almost anything to the applicaiton!
+
+## Frontend Setup
 
 Now let's run our frontend so that we can visually interact with our backend API.
 
