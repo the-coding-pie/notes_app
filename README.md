@@ -12,7 +12,7 @@ I separated the Django backend from the ReactJS frontend. One of the many ways t
 So first let's activate the backend API server:
 
 - `git clone` or `Download ZIP` this repo `https://github.com/the-coding-pie/notes_app.git`
-- then `cd notes_app/backend/backend`
+- then `cd notes_app/backend/backend/`
 
 ## Setting up a virtual environment using venv
 - `python3 -m venv venv` will make a virtual environment
@@ -32,3 +32,10 @@ So first let's activate the backend API server:
 ## Starting the backend API server
 - `python manage.py runserver` will start the Django API server
 
+Now let's run our frontend so that we can visually interact with our backend API.
+
+- Open up another terminal and `cd notes_app/frontend/`
+- `npm install` will install all the needed modules for the frontend to work
+- `npm run start` to start the frontend development server
+- Visit `http://localhost:3000` in your browser (normally ReactJS would do this for you)
+- Login/Register and enjoy the application!
