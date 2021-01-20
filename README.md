@@ -18,6 +18,7 @@ A simple Notes App made using React JS, Redux and Django Rest Framework. I was t
 - Styling - `vanilla CSS`
 - `React Alert` package for showing Toast messages (frontend)
 - `Redux` for managing state (frontend)
+- `React Router` for routing (frontend)
 - Database - `SQLite3` but you can easily plug and use the DB of your choice.
 
 ## Description
