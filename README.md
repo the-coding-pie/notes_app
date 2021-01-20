@@ -19,7 +19,7 @@ A simple Notes App made using React JS, Redux and Django Rest Framework. I was t
 - `React Alert` package for showing Toast messages (frontend)
 - `Redux` for managing state (frontend)
 - `React Router` for routing (frontend)
-- Database - `SQLite3` but you can easily plug and use the DB of your choice.
+- Database - `SQLite3`. But you can easily plug and use the DB of your choice.
 
 ## Description
 
@@ -50,7 +50,7 @@ Then setup the Backend...
 
 # Backend Setup
 
-To start/activate the Backend API server:
+To setup and start/activate the Backend API server, do the following:
 
 - `cd notes_app/backend/backend/`
 
@@ -71,11 +71,12 @@ To start/activate the Backend API server:
 
 ## Starting the backend API server
 - `python manage.py runserver` will start the Django API server
-- If you want, you can **Login** to the pre-built admin panel by visiting- `http://localhost:8000/admin/` in your browser as the superuser account you just created. From this panel, you will be able to do almost anything to the applicaiton!
 
+- At this point, if you want, you can **Login** to the pre-built admin panel by visiting- `http://localhost:8000/admin/` in your browser as the superuser account you just created. From this panel, you will be able to do almost anything to the applicaiton!
 
-Now your backend server will be ready to accept the API requests! So let's setup the frontend...
-
+<br/>
+Now our backend server will be ready to accept the API requests! So let's setup the frontend...
+<br/>
 
 # Frontend Setup
 
@@ -84,7 +85,7 @@ Now let's run our frontend so that we can visually interact with our backend API
 - Open up another terminal and `cd notes_app/frontend/`
 - `npm install` will install all the needed modules for the frontend to work
 - `npm run start` to start the frontend development server
-- Visit `http://localhost:3000` in your browser (normally ReactJS would do this for you)
+- Visit `http://localhost:3000` in your browser (normally ReactJS would do this for us)
 - Login/Register and enjoy the application!
 
 ## Thanks for having a look at my project. Dont forget to check out my blog - <a href="https://thecodingpie.com">https://thecodingpie.com</a>
