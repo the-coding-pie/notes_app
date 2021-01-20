@@ -9,7 +9,7 @@ A simple Notes App made using React JS, Redux and Django Rest Framework. I was t
 
 <div align="center"><img src="https://i.ibb.co/y4Hp0Gz/login.png" alt="login" border="0"><p>Login Page</p></div>
 
-<div align="center"><img src="https://i.ibb.co/cbJK841/register.png" alt="register" border="0"><p>Home Page</p></div>
+<div align="center"><img src="https://i.ibb.co/cbJK841/register.png" alt="register" border="0"><p>Register Page</p></div>
 
 ## Technologies used:
 
