@@ -3,17 +3,29 @@ A simple Notes App made using React JS, Redux and Django Rest Framework.
 
 I was trying to connect my Django, React JS and Redux skills together, so I built this.
 
-This is a simple note taking app with Token Based Authentication.
+This is a simple note taking app with Token Based Authentication. Any user can login/register. After that they will be able to use this Notes App. The authenticated user will be able to do:
+
+- Create a note
+- Read all (and only) their notes
+- Delete their own notes
+- Logout from their current account
+
+A single `note` holds the following data to it:
+
+- `title` - the title of the note
+- `body` - the content of the note
+- `created_at` - when it was created
+- `author` - who created it
 
 ## How to use it?
 
-I separated the Django backend from the ReactJS frontend. One of the many ways to run this project is to run the Django backend API alone and then use the ReactJS frontend to consume the API.
+I separated the Django backend from the ReactJS frontend. One of the many ways to run this project is to **run the Django backend API alone** and then **use the React frontend to consume the API**.
 
-First:
+To do that first:
 
 - `git clone` or `Download ZIP` this repo `https://github.com/the-coding-pie/notes_app.git`
 
-## Backend Setup
+# Backend Setup
 
 Now let's activate the backend API server:
 
@@ -38,7 +50,7 @@ Now let's activate the backend API server:
 - `python manage.py runserver` will start the Django API server
 - If you want, you can **Login** to the pre-built admin panel by visiting- `http://localhost:8000/admin/` in your browser as the superuser account you just created. From this panel, you will be able to do almost anything to the applicaiton!
 
-## Frontend Setup
+# Frontend Setup
 
 Now let's run our frontend so that we can visually interact with our backend API.
 
