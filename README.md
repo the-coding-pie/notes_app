@@ -5,11 +5,11 @@ A simple Notes App made using React JS, Redux and Django Rest Framework. I was t
 
 <div align="center"><img src="https://i.ibb.co/JzgS4VP/base.png" alt="base" border="0"><p>Home Page</p></div>
 
-<a href="https://ibb.co/HD36R8p"><img src="https://i.ibb.co/qMVKhQF/alert.png" alt="alert" border="0"></a>
+<div align="center"><img src="https://i.ibb.co/qMVKhQF/alert.png" alt="alert" border="0"><p>React Alert Component</p></div>
 
-<a href="https://ibb.co/CPR6BNj"><img src="https://i.ibb.co/y4Hp0Gz/login.png" alt="login" border="0"></a>
+<div align="center"><img src="https://i.ibb.co/y4Hp0Gz/login.png" alt="login" border="0"><p>Login Page</p></div>
 
-<a href="https://ibb.co/vs1Cd0H"><img src="https://i.ibb.co/cbJK841/register.png" alt="register" border="0"></a>
+<div align="center"><img src="https://i.ibb.co/cbJK841/register.png" alt="register" border="0"><p>Home Page</p></div>
 
 ## Technologies used:
 
