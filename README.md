@@ -75,7 +75,7 @@ To setup and start/activate the Backend API server, do the following:
 - At this point, if you want, you can **Login** to the pre-built admin panel by visiting- `http://localhost:8000/admin/` in your browser as the superuser account you just created. From this panel, you will be able to do almost anything to the applicaiton!
 
 <br/>
-Now our backend server will be ready to accept the API requests! So let's setup the frontend...
+Now our backend server is ready to accept the API requests! So let's setup the frontend...
 <br/>
 
 # Frontend Setup
